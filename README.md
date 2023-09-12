@@ -1,29 +1,6 @@
-# bienesraices-vue
+# Octavo proyecto Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Octavo proyecto del curso de Vue, primer proyecto Full Stack; utilizaremos firebase para el backend; con firebase podemos subir archivos, crear datos en una base de datos real, autenticar usuarios sin tener conocimientos de backend, ideal para proyectos de clientes, pruebas técnicas o para aprender más sobre backend.
 
-## Recommended IDE Setup
+## Para ver la web haga click en la siguiente URL:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
