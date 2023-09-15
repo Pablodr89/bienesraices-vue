@@ -1,8 +1,8 @@
 <script setup>
     import { ref, computed } from 'vue'
     import { useForm, useField } from 'vee-validate'
-    import { loginSchema as validationSchema } from '../validation/loginSchema'
-    import { useAuthStore } from '../stores/auth'
+    import { loginSchema as validationSchema } from '@/validation/loginSchema'
+    import { useAuthStore } from '@/stores/auth'
 
     let { handleSubmit } = useForm({ validationSchema })
 
@@ -17,12 +17,8 @@
 
 <template>
     <v-card flat max-width="600" class="mx-auto my-10">
-        <v-card-title class="text-h4 font-weight-bold" tag="h3">
-            Iniciar Sesión
-        </v-card-title>
-        <v-card-subtitle class="text-h5">
-            Inicia Sesión con tu cuenta
-        </v-card-subtitle>
+        <v-card-title class="text-h4 font-weight-bold" tag="h3">Iniciar Sesión</v-card-title>
+        <v-card-subtitle class="text-h5">Inicia Sesión con tu cuenta</v-card-subtitle>
 
         <v-alert v-if="auth.hasError" type="error" :title="auth.errorMsg" class="my-5"></v-alert>
 
