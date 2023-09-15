@@ -1,5 +1,4 @@
 <script setup>
-    import { ref } from 'vue'
     import { useForm, useField } from 'vee-validate'
     import { validationSchema, imageSchema } from '@/validation/propiedadSchema'
     import { collection, addDoc } from "firebase/firestore"

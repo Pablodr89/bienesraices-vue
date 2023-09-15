@@ -26,9 +26,7 @@
             <v-text-field class="mb-3" v-model="email.value.value" type="email" label="Email" bg-color="blue-grey-lighten-5" :error-messages="email.errorMessage.value"/>
             <v-text-field class="mb-3" v-model="password.value.value" type="password" label="Password" bg-color="blue-grey-lighten-5" :error-messages="password.errorMessage.value"/>
 
-            <v-btn block color="pink-accent-3" @click="submit">
-                Iniciar Sesion
-            </v-btn>
+            <v-btn block color="pink-accent-3" @click="submit">Iniciar Sesion</v-btn>
         </v-form>
     </v-card>
 </template>
